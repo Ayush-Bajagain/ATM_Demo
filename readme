@@ -1,0 +1,16 @@
+Requirement for run this program.
+1. you have the add mysql java connector (https://dev.mysql.com/downloads/connector/j/)
+2. you most have to create the database the structure of database is given below.
+3 give the correct path and port number as well as username and password in the program in line number 138 to 140.
+4. You have to add one user manually in the database (only one user, the design of the program is for single user)
+
+
+Database structure........
+
+database name = atm_system
+table name = user_one
+
+id int auto_increment primary key,
+atm_pin int,
+balance double
+
